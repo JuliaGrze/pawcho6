@@ -30,9 +30,9 @@ RUN npm install
 
 EXPOSE 80
 
-# Ujednolicony mechanizm HEALTHCHECK korzystający z dedykowanego endpointu /health
-HEALTHCHECK --interval=30s --timeout=3s --start-period=5s \
-  CMD curl -s http://localhost/health | grep -q "OK" || exit 1
+# Dodanie HEALTHCHECK - sprawdzanie dostępności strony głównej
+HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
+  CMD curl -f http://localhost/ || exit 1
 
 # Uruchomienie aplikacji
 CMD ["node", "index.js"]

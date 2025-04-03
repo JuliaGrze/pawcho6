@@ -2,14 +2,6 @@ const http = require('http');
 const PORT = process.env.PORT || 80;
 
 const server = http.createServer((req, res) => {
-  // Obsługa endpointu /health
-  if (req.url === '/health') {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('OK');
-    return;
-  }
-
   // Obsługa głównej strony
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');

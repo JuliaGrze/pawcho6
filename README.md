@@ -11,3 +11,6 @@
 
 # Potwierdzenie za pomocą polecenia curl
 ![image](https://github.com/user-attachments/assets/e5f0ecf7-6c28-42b7-8fd9-b49a65ce055d)
+
+# Dodanie tagu i wysyłanie obrazu do ghcr.io
+![image](https://github.com/user-attachments/assets/51ec7eaf-6f7d-43af-99ad-ea0d1c7541ef)

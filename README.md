@@ -23,9 +23,9 @@
 # docker build --ssh default --build-arg VERSION=2.5 -t ghcr.io/juliagrze/pawcho6 .
 ![image](https://github.com/user-attachments/assets/04a92b6a-261e-43a0-982c-a53e09b0592f)
 
-#Uruchomienie
+# Uruchomienie
 # docker run -d -p 8082:80 ghcr.io/juliagrze/pawcho6
 ![image](https://github.com/user-attachments/assets/df3cbf46-b5b2-4d6f-b878-660ff0cf1ac0)
 
-#Potwierdzenie:
+# Potwierdzenie:
 ![image](https://github.com/user-attachments/assets/72d8010d-4e32-41ac-8e5e-81f3a4736c1a)
